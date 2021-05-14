@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restatrunt</title>
+     
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+</head>
+<body>
+    <script src="jqueryjs/jquery.js"></script>
+    <script src="jqueryjs/jquery.validate.js"></script>
+ <!-- googlefont-->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet"> 
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="‪D:\bootstrap-4.3.1-dist\bootstrap\js\bootstrap.min.js"> 
+    <link rel="stylesheet" href="‪D:\bootstrap-4.3.1-dist\bootstrap\js\bootstrap.min.js"> 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     <!--header start-->
+    <!--navbar start--> 
+    <header class="fixed-top" >
+     
+        <nav class="navbar navbar-expand-md navbar-dark" id="myscroll" data-scroll="scroll" style="background-color: #151516;">
+            <div class="container">
+                <div class="navbar-brand">
+                  <a href="/" class="navbar-brand w3-animate-right" id="box" >
+                   <img src="images/logo.png" alt="logo">
+                  </a> 
+                </div>
+                    <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav" style="text-decoration: none;">
+                        <img src="images/menu_icon.png" alt="">
+                    </a>
+
+               <div class="collapse navbar-collapse" id="mynav">
+                    <ul class="navbar-nav ml-auto" id="menu">
+                        <li class="nav-item nav-item-action" >
+                           <a href="#home" class="nav-link text ml-4 active">Home   </a>
+                        </li>
+                       <li class="nav-item">
+                           <a href="#about" class="nav-link text  ml-4">About  </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#res" class="nav-link text  ml-4">Rescipe  </a>
+                         </li>                        
+            
+                        <li class="nav-item">
+                           <a href="#blog" class="nav-link text  ml-4"> Blog</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link text  ml-4">Contact</a>
+                         </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+  <!--navbar end-->
+    <!--header end-->
+ <div style="height: 100px;"></div>
+    <!--carousel-->
+<center>        
+    <div class="container-fluid mt-5" id="home">
+        <div class="container-md">   
+            <div class="carousel slide" data-ride="carousel" id="mycarousel">
+        <div class="carousel-inner mt-5">      
+        <div class="carousel-item mt-5 ">
+            <div class="row">
+                <div class="col-md-5 col-xs-12">
+                    <div class="slider_cont ml-5">
+                         <h3 class="heading text-center">Discover Restaurants<br>That deliver near You</h3>
+                        <p class="para text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        <a class="btn btn-danger" href="#">Order Now</a>
+                        </div>
+                </div>
+                <div class="col-md-7 col-xs-12">
+                    <img src="images\burger_slide.png" class= "ml-4 mt-3 img-fluid"  class="img-responsive" alt="first image">
+                </div>
+            </div>
+        </div>
+               <div class="carousel-item mt-5 active">
+     <div class="row">
+                <div class="col-md-5 col-xs-12">
+                    <div class="slider_cont">
+                         <h3 class="heading text-center">Discover Restaurants<br>That deliver near You</h3>
+                        <p class="para text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        <a class="btn btn-danger" href="#">Order Now</a>
+                        </div>
+                </div>
+                <div class="col-md-7 col-xs-12">
+                    <img src="images\burger_slide.png" class="img-fluid ml-4 mt-3" alt="first image">
+                </div>
+            </div>
+        </div>
+        </div>
+        <a href="#mycarousel" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+             <span class="sr-only">previous</span>
+         </a>
+         <a href="#mycarousel" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">next</span>
+        </a>
+    </div>
+
+    
+    </div>
+</div>
+</center>
+    <!--end carousel-->
+
+    <!--section start-->
+    <center>
+    <section class="home section" id="res">
+       <!--resipes-->
+       <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+          <div class="ourheading">
+       <h2 class="text-center heading" style="color: white;">Our Recipes</h2>
+     </div>
+   </div>  
+   </div>
+
+                    <div class="row ">
+                        <div class="col-md-4 col-xs-12">
+                        
+                            <img src="images/rs2.png" class="p-3 img-fluid mt-3" alt="#" class="mt-3"/>
+                              <p class="text-center amount"><span class="sym">&#8377 </span>200</p>
+                                </p>
+                        </div>
+                        <div class="col-md-4 col-xs-12">
+                        <img src="images/rs1.png" class="p-3 img-fluid mt-3" alt="#" class="mt-3"/>  
+                        <p class="text-center amount"><span class="sym">&#8377 </span>200</p>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                     
+                        <img src="images/rs3.png" class="p-3 img-fluid mt-3" alt="#" class="mt-3"/>
+                        <p class="text-center amount"><span class="sym">&#8377 </span>50</p>  
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                     
+                        <img src="images/rs4.png" class="p-3 img-fluid mt-3" alt="#" class="mt-3"/>
+                        <p class="text-center amount"><span class="sym">&#8377 </span>270</p>  
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                     
+                        <img src="images/rs5.png" class="p-3 img-fluid mt-3" alt="#" class="mt-3"/>
+                        <p class="text-center amount"><span class="sym">&#8377 </span>180</p>  
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                     
+                        <img src="images/burger_slide.png" class="p-3 img-fluid mt-3" alt="#" class="mt-3" height="230px" width="230px"/>  
+                        <p class="text-center amount"><span class="sym">&#8377 </span>100</p>
+                    </div>
+                    </div>
+            </div>
+         
+   
+    <!--end carousel--> 
+    </section>
+</center>
+    <!--section end-->
+
+   
+    <div class="bg-bg">
+        <center>
+        <!--about start-->
+        <div class="container mt-5 about" id="about">
+            <div class="container">
+              <div class="row">
+                 <div class="col-12">
+                     <div class="title p-3">
+                        <i><img src="images/title.png" class="img-fluid" alt="#"/></i>
+                        <h2 class="text-center mt-3 heading"style="color: white;">About Our Food & Restaurant</h2>
+                        <p class="text-center" style="color: white;">It is a long established fact that a reader will be distracted by the readable content of a
+                           <br> page when looking at its layout. The point of using Lorem
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                     <div class="about_box">
+                         <h3 style="color: rgb(206, 206, 51);">Best Food</h3>
+                         <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. </p>
+                                        <a href="#" class="para" style="padding: 10px;background-color:rgb(206, 206, 51);color: black;border-radius: 10px;">Read More</a>
+                     </div>
+                 </div>
+                  <div class="col-xl-5 col-lg-5 col-md-10 col-sm-12 about_img_boxpdnt">
+                     <div class="about_img">
+                         <img src="images/about-img.jpg" id="po" class= "img-fluid" alt="#/">
+                     </div>
+                 </div>      
+               </div> 
+            </div>
+        </center>  
+        </div>
+       <!--about end-->
+
+
+        <!--blog start-->
+       
+        <div class="container-md mt-5" id="blog">
+            <center>
+                <div class="container-md">
+        <div class="title p-4">
+            <i><img src="images/title.png" class="img-fluid" alt="#"/></i>
+            <h2 class="text-center mt-3" style="color: white;">Our Blog</h2>
+            <p class="text-center"style="color: white;">when looking at its layout. The point of using Lorem
+            </p>
+         </div>
+        </div>
+         </center>
+        
+             <center>
+                 <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    
+                    <div class="card mb-4">
+                        <figure><img src="images/blog_img3.png" class="card-img-top img-fluid" alt="#"/>
+                            <span class="badge badge-dark my-3 p-2">02 FEB 2019</span>
+                           </figure>
+                        <div class="card-body" >
+                        <h3 class="card-title">Pizza</h3>
+          <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the </p>
+        </div>
+                    </div>  
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card mb-4">
+                        <figure><img src="images/blog_img2.png" class="card-img-top img-fluid" alt="#"/>
+                            <span class="badge badge-dark my-3 p-2">02 FEB 2019</span>
+                           </figure>
+                        <div class="card-body" >
+                            
+                            <h3 class="card-title">Egg & Tosh</h3>
+             <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+              Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the </p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card mb-4">
+                        <figure><img src="images/blog_img1.png" class="card-img-top img-fluid" alt="#"/>
+                            <span class="badge badge-dark my-3 p-2">02 FEB 2019</span>
+                           </figure>
+                            <div class="card-body" >
+                            
+                            <h3 class="card-title">Spicy Barger</h3>
+                          <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+                              Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the </p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            </center>
+            
+        </div> 
+
+        </div>
+   
+        <!--blog end-->
+    </div>
+    <!--contact us start-->
+    <div style="background-color: #d8b00f;" id="contact">
+        <div class="footer mt-5">
+            <div class="container">
+                <div class="row">
+                  <div class=" col-md-12 mt-5">
+                    <h2>Request  A<strong class="white" style="color: white;"> Call  Back</strong></h2>
+                  </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <form action="mailto:premm2201@gmail.com"  id="form1" name="myform" onsubmit="validate();">
+                            <div class="row">
+                             
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 p-3 h-5 mt-4">
+                                    <div class="input-group ">
+                                    <input class="form-control h-5" placeholder="Name" type="text" id="name" name="name" >
+                                    <div class="err"></div>
+                                   </div>
+                                
+                                </div>
+                                
+                                
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 p-3 h-5 mt-4">
+                                    <div class="input-group ">
+                                    <input class="form-control h-5" placeholder="Email" type="text" id="email" name="email" >
+                                   </div>
+                                   <div class="err"></div>
+                                </div>
+                                
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 p-3 h-5 mt-4">
+                                    <div class="input-group ">
+                                    <input class="form-control h-5" placeholder="Phone" type="text" id="phone" name="phone" >
+                                    </div>
+                                    <div class="err"></div>
+                                </div>
+                                
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 p-3 h-5 mt-4">
+                                    <div class="input-group ">
+                                    <textarea class="form-control h-5" placeholder="Message" type="text" id="message" name="message" ></textarea> 
+                                </div>
+                                <div class="err"></div>
+                                </div>
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 p-3 h-5 mt-4">
+                                    <button type="submit" id="btn" class="btn mt-3 p-2" style="width: 150px; background-color:white;">Send</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <div class="img-box p-3">
+                            <img src="images/img.jpg"class="img-fluid p-5"alt="img" />
+                        </div>
+                    </div>
+                </div>
+            
+        <center>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer_logo mt-5">
+                  <a href="index.html"><img src="images/logo1.jpg" class="img-fluid" alt="logo" /></a>
+                </div>
+            </div>
+            <div class="col-12">
+                <hr style="border: 1px solid white;" class="mt-5">
+            </div>
+            <div class="col-12">
+               
+                <ul class="lik mt-3">
+                    <li class="active p-2"><a href="index.html">Home</a></li>
+                    <li class="p-2"> <a href="about.html">About</a></li>
+                    <li  class="p-2"> <a href="about.html">Rescipe</a></li>
+                    <li  class="p-2"> <a href="blog.html">Blog</a></li>
+                    <li  class="p-2"> <a href="contact.html">Contact us</a></li>
+                </ul>
+            
+            </div>
+        </div>
+    </center>
+    </div>
+    <div style="background-color: white;">
+    <div class="container">
+        <h4 class="p-4 text-center" style="font-size: 20px;">&copy; 2021 All Rights Reserved. Design By Prem</h4>
+    </div>
+    </div>
+</div>
+</div>
+     <!--contact us end-->
+     <script>
+        (function () {
+          'use strict'
+        
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.querySelectorAll('.needs-validation')
+        
+          // Loop over them and prevent submission
+          Array.prototype.slice.call(forms)
+            .forEach(function (form) {
+              form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                  event.preventDefault()
+                  event.stopPropagation()
+                }
+        
+                form.classList.add('was-validated')
+              }, false)
+            })
+        })()
+        $(document).ready(function(){
+                 $.validator.setDefaults({
+                     submitHandler:function(){
+                         alert("submitted");
+                     }
+                 });
+                 $("#form1").validate({
+                     rules:{
+                        name:{required:true,
+                            digits:false},
+                        email:{
+                            required:true,
+                            email:true
+                        },
+                        phone:{
+                            required:true,
+                            digits:true,
+                            maxlength:10,
+                            minlength:10
+                        },
+                       message:{
+                            required:true,
+                        }
+
+
+                     },
+                     messages:{
+                               name:{
+                                   required:"Plese Enter Your Name",
+                                   digits:"Plese Enter Valid name"
+                               },
+                               email:{
+                            required:"Plese Enter Your Email",
+                            email:"Plese Enter Valid Email" },
+                                            },
+                                            phone:{
+                            required:"Plese Enter Your Name",
+                            digits:"Enter Only Digits",
+                            maxlength:"Length Must Be 10",
+                            minlength:"Length Must Be 10"
+                        },
+                        message:{
+                            required:"Plese Enter Your message"
+                        }
+                 }).c
+             });
+             
+           
+</script>    </body>
+</html>

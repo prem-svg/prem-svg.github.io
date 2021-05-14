@@ -1,0 +1,153 @@
+.bg-bg {
+    background: url(../spicyo/images/bg.jpg);
+}
+body{
+    background-color: #151516;
+}
+/** about **/
+.about {
+    padding-top: 90px;
+}
+.heading{
+    color: white;
+   
+}
+.text{
+    color: white;
+    font-weight: bold;  
+}
+.para{
+    color: white;
+    font-size: 15px;
+}
+
+ .about .about_box {
+    background: #151516;
+     padding: 55px 40px;
+}
+ .about .about_box h3 {
+     font-size: 30px;
+     line-height: 28px;
+     color: #fff;
+     padding: 0;
+}
+ .about .about_box p {
+     color: #ffff;
+     font-size: 17px;
+     line-height: 28px;
+     padding: 30px 0px;
+     font-weight: 400;
+}
+.pal{
+    width: 700px !important;
+   
+}
+.amount{
+    color: white;
+    font-weight: bold;
+}
+.sym
+{
+    color: yellow;
+}
+ul.lik {
+    text-align: center;
+     margin-top: 10px;
+}
+ ul.lik li {
+    display: inline-block;
+}
+ ul.lik li a {
+     color: #292323;
+     font-size: 17px;
+     line-height: 27px;
+     padding: 0px 25px;
+     font-weight: 500;
+     text-decoration: none;
+}
+ ul.lik li.active a {
+    color: #fff;
+}
+.h-5{
+    height: 60px;
+    width: 300px;
+}
+ .about .about_box a {
+     color: #fff;
+     font-size: 22px;
+     line-height: 29px;
+}
+ .about .about_box a:hover {
+     color: #e7bb0b;
+}
+ 
+@keyframes move{
+    from { transform:translatex(0px) }
+    to { transform:translatex(40px) }
+}
+#menu{
+    animation-name:move;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        animation-duration: 0.3s;
+        animation-timing-function: linear;
+    }
+ul{
+    padding: 20px;
+}
+ .about .about_img {
+     height: 400px;
+     background: #d8b00f;
+     margin-top: 90px;
+     width: 500px;
+}
+.img1{
+    margin-left: 500px;
+}
+ .about .about_img figure {
+     margin: 0;
+     margin-right: 0px;
+     padding: 92px 0px 0px 60px;
+     margin-right: -54px;
+}
+
+/** end about **/
+@media only screen and (max-width: 800px) {
+    .img1{
+        margin-left:150px ;
+    }
+    .h-5{
+        height: 60px;
+        width: 450px;
+    }
+    .img-box img{
+        width: 300px;
+    }
+    
+    ul.lik li a {
+        color: #292323;
+        font-size: 18px;
+        line-height: 10px;
+        padding: 20px 10px;
+        font-weight: 500;
+        text-decoration: none;
+   }
+    
+   @keyframes move{
+    from { transform:translatex(0px) }
+    to { transform:translatex(150px) }
+}
+#menu{
+    animation-name:move;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        animation-duration: 0.3s;
+        animation-timing-function: linear;
+    }
+    .about .about_img {
+        height: 200px;
+        background: #d8b00f;
+        margin-top: 90px;
+        width: 300px;
+   }  
+}
